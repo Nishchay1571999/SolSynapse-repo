@@ -1,0 +1,14 @@
+/home/basementfox/Desktop/projects/d-mssp/programs/target/debug/deps/serde-30ce6be77cf10093.d: /home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/basementfox/Desktop/projects/d-mssp/programs/target/debug/build/serde-85d3a7eddb2d1902/out/private.rs
+
+/home/basementfox/Desktop/projects/d-mssp/programs/target/debug/deps/libserde-30ce6be77cf10093.rlib: /home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/basementfox/Desktop/projects/d-mssp/programs/target/debug/build/serde-85d3a7eddb2d1902/out/private.rs
+
+/home/basementfox/Desktop/projects/d-mssp/programs/target/debug/deps/libserde-30ce6be77cf10093.rmeta: /home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/basementfox/Desktop/projects/d-mssp/programs/target/debug/build/serde-85d3a7eddb2d1902/out/private.rs
+
+/home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/home/basementfox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/home/basementfox/Desktop/projects/d-mssp/programs/target/debug/build/serde-85d3a7eddb2d1902/out/private.rs:
+
+# env-dep:OUT_DIR=/home/basementfox/Desktop/projects/d-mssp/programs/target/debug/build/serde-85d3a7eddb2d1902/out

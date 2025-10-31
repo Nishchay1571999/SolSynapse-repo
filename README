@@ -1,0 +1,17 @@
+# MVP LOCAL SETUP
+
+
+# TO START AGENTS
+
+## Agent A
+
+'''
+    PORT=3001 AGENT_ID=agent-A KEYPAIR_PATH=~/.config/solana/agents/agentA.json node index.js
+'''
+
+## Agent B
+
+'''
+    PORT=3002 AGENT_ID=agent-B KEYPAIR_PATH=~/.config/solana/agents/agentB.json node index.js
+'''
+

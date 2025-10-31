@@ -1,0 +1,3466 @@
+[00:00:01.430] Server  LOG      ✓ Ready in 1112ms
+[00:00:09.735] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:56.609] Server  LOG      ✓ Compiled in 17ms
+[00:09:57.165] Browser ERROR   ./app/page.jsx:6:6
+Parsing ecmascript source code failed
+  4 | import { v4 as uuidv4 } from "uuid";
+  5 |
+> 6 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+    |      ^^^^^
+  7 |
+  8 | const AGENTS: Agent[] = [
+  9 |   { id: "agent-A", name: "Agent A", url: "http://localhost:3001", side: "left" },
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./app/page.jsx [Client Component Browser]
+    ./app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.jsx [Client Component SSR]
+    ./app/page.jsx [Server Component]
+[00:10:10.181] Server  LOG      ✓ Compiled in 60ms
+[00:10:10.822] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:16.850] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:13.332] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:32.455] Server  LOG      ✓ Compiled in 16ms
+[00:14:46.964] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:53.563] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:33.177] Server  LOG      ✓ Compiled in 26ms
+[00:17:39.602] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:29.938] Server  LOG      ✓ Compiled in 17ms
+[00:20:36.352] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:09:01.562] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:12:07.030] Server  LOG      ✓ Compiled in 270ms
+[22:12:12.429] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[29:24:22.170] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[32:04:12.296] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.301] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.306] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.312] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.317] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.322] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.327] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.330] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.344] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.349] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.359] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.364] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.367] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.370] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.373] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.379] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.385] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.389] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.391] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.396] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.399] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.403] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.407] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.411] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.414] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.419] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.422] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.425] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.428] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.430] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.432] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.435] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.438] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.440] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.442] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.445] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.448] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.451] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.455] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.458] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.461] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.464] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.467] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.469] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.472] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.474] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.477] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.479] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.482] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.485] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.489] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.491] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.493] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.496] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.500] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.504] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.511] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.513] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.516] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.520] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.525] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.529] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.535] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.542] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.549] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.554] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.557] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.561] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.565] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.572] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.576] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:12.581] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:04:13.165] Browser ERROR   ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[32:04:13.165] Browser ERROR   ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[32:04:52.376] Server  LOG      ✓ Compiled in 6ms
+[32:04:53.164] Browser ERROR   ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[32:04:53.164] Browser ERROR   ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[32:05:06.037] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.041] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.045] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.049] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.052] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.055] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.057] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.059] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.063] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.066] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.068] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.071] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.075] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.078] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.082] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.085] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.089] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.093] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.105] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.118] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.123] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.130] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.135] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.142] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.149] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.155] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.161] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.165] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.178] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.182] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.188] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.192] Server  ERROR    ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:06.199] Server  LOG      ✓ Compiled in 38ms
+[32:05:07.164] Browser ERROR   ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/Panel'
+   5 | import { v4 as uuidv4 } from "uuid";
+   6 | import TransactionDrawer from "../components/TransactionDrawer";
+>  7 | import Panel from "../components/Panel";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+  10 |
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[32:05:29.160] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[32:05:29.645] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[32:05:30.070] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[32:05:31.165] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `IndexPage`.
+[32:05:37.415] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[32:05:37.468] Server  LOG      ✓ Compiled in 15ms
+[32:05:37.754] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[32:05:38.010] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[32:05:39.165] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `IndexPage`.
+[32:05:42.411] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[32:05:42.455] Server  LOG      ✓ Compiled in 12ms
+[32:05:42.630] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[32:05:49.569] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.573] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.577] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.580] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.596] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.598] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.600] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.602] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.605] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.606] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.608] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.610] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.613] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.616] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.618] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.623] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.628] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.631] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.633] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.636] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.640] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.642] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.645] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.648] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.652] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.654] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.658] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.661] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.665] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.667] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.677] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.678] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32:05:49.680] Server  LOG      ✓ Compiled in 43ms
+[32:05:50.164] Browser ERROR   ./app/page.tsx:6:1
+Module not found: Can't resolve '../../components/TransactionDrawer'
+  4 | import React, { useEffect, useRef, useState } from "react";
+  5 | import { v4 as uuidv4 } from "uuid";
+> 6 | import TransactionDrawer from "../../components/TransactionDrawer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Panel from "../components/Panel";
+  8 |
+  9 | type Agent = { id: string; name: string; url: string; side: "left" | "right" };
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[32:06:25.642] Server  LOG      ✓ Compiled in 28ms
+[32:06:40.558] Server  LOG      ✓ Compiled in 24ms
+[32:07:09.974] Server  LOG      ✓ Compiled in 20ms
+[32:07:40.145] Server  LOG      ✓ Compiled in 26ms
+[32:07:50.613] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[32:11:24.690] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[32:11:30.182] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[32:11:39.522] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[32:11:43.944] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[32:12:45.251] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[32:12:45.265] Server  LOG      ✓ Compiled in 43ms
+[32:12:45.603] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[32:12:49.070] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[32:54:59.659] Server  LOG      ✓ Compiled in 31ms
+[32:56:03.597] Server  LOG      ✓ Compiled in 15ms
+[32:56:09.289] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[33:00:56.133] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[33:00:58.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[33:00:59.457] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[33:01:00.345] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[33:01:07.279] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[33:04:47.566] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[33:13:09.237] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[33:34:23.179] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[33:36:08.319] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
