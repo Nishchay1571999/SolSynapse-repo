@@ -15,3 +15,23 @@
     PORT=3002 AGENT_ID=agent-B KEYPAIR_PATH=~/.config/solana/agents/agentB.json node index.js
 '''
 
+Make sure to airdrop Sol before you start conversation 
+The frontend folder is a simple Nextjs Project make sure to change the keypair path before starting in the AGENTS array 
+const AGENTS: Agent[] = [
+  {
+    id: "agent-A",
+    name: "Agent A",
+    url: "http://localhost:3001",
+    side: "left",
+    keypairPath: "~/.config/solana/agents/agentA.json", // replace if needed
+  },
+  {
+    id: "agent-B",
+    name: "Agent B",
+    url: "http://localhost:3002",
+    side: "right",
+    keypairPath: "~/.config/solana/agents/agentB.json", // replace if needed
+  },
+];
+
+This perticular Array 
