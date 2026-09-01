@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@solana/web3.js": "^1.98.4",
-    "better-sqlite3": "^12.4.1",
+    "better-sqlite3": "^13.0.0",
     "body-parser": "^2.2.0",
     "bs58": "^6.0.0",
     "cors": "^2.8.5",
